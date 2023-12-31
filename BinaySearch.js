@@ -23,6 +23,7 @@
 
 //  Crystal Balls Problem
 function twoCrystalBall(breaks) {
+
     const jumpAmount = Math.floor(Math.sqrt(breaks.length))
     let i = jumpAmount
     for (; i < breaks.length; i += jumpAmount){
