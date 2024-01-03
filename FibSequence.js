@@ -31,3 +31,19 @@ function getNthFibRescursive(value) {
 }
 
 console.log(getNthFibRescursive(10))
+
+// Recursive better solution
+function  getNthFibBetter(value, secondLast, last) {
+    if (value == 0) {
+        return secondLast
+    }
+
+    if (value == 1) {
+        return last
+    }
+6
+    return getNthFibBetter(value -1, last, secondLast + last)
+}
+
+
+console.log(getNthFibBetter(10, 0, 1))
