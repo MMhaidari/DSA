@@ -19,3 +19,15 @@ function getNthFib(value) {
 }
 
 console.log(getNthFib(10))
+
+// Recursive solution
+function getNthFibRescursive(value) {
+    if (value <= 1) {
+        return value
+    } else {
+        return getNthFibRescursive(value - 1) + getNthFibRescursive(value - 2)
+    }
+
+}
+
+console.log(getNthFibRescursive(10))
