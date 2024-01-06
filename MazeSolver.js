@@ -56,7 +56,7 @@ function mazeSolver(maze, wall, start, end) {
 
     walk(maze, wall, start, end, seen, path);
 
-    return path; // Add this line to return the path array
+    return path;
 }
 
 const maze = [
