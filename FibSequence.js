@@ -18,7 +18,6 @@ function getNthFib(value) {
 
 }
 
-
 console.log(getNthFib(10))
 
 // Recursive solution
