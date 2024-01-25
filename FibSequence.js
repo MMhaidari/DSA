@@ -15,7 +15,6 @@ function getNthFib(value) {
     }
 
     return sum
-
 }
 
 console.log(getNthFib(10))
