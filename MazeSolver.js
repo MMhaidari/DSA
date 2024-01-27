@@ -5,6 +5,7 @@ const dir = [
     [0, 1],
 ]
 
+
 function walk(maze, wall, curr, end, seen, path) {
     // 1. off the map
     if (curr.x < 0 || curr.x >= maze[0].length ||
