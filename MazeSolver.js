@@ -16,6 +16,7 @@ function walk(maze, wall, curr, end, seen, path) {
     if (maze[curr.y][curr.x] === wall) {
         return false;
     }
+    
 
     if (curr.x === end.x && curr.y === end.y) {
         path.push(end)
