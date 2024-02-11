@@ -29,6 +29,7 @@ function getNthFibRescursive(value) {
 
 }
 
+
 console.log(getNthFibRescursive(10))
 
 // Recursive better solution
