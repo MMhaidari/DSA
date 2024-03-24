@@ -45,5 +45,4 @@ function  getNthFibBetter(value, secondLast, last) {
     return getNthFibBetter(value -1, last, secondLast + last)
 }
 
-
 console.log(getNthFibBetter(10, 0, 1))
