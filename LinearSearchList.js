@@ -7,3 +7,4 @@ function linearSearch(heystack, n) {
     }
     return false;
 }
+
