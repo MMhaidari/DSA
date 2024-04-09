@@ -1,5 +1,7 @@
 function qs(arr, lo, hi) {
 
+  if (lo >= hi) return;
+
   if (lo < hi) {
     const p = partition(arr, lo, hi);
     qs(arr, lo, p - 1);
@@ -26,6 +28,7 @@ function partition(arr, lo, hi) {
 
 function quickSort(arr) {
   qs(arr, 0, arr.length - 1)
+  return arr;
 }
 
-console.log(quickSort())
+console.log(quickSort([8, 4, 7, 6, 15, 10, 2, 5, 3, 1, 9]))
