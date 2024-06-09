@@ -12,3 +12,4 @@ function bubbleSort(arr) {
 }
 
 console.log(bubbleSort([1,9,56,48,6,8,4,71,55]))
+
